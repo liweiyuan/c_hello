@@ -23,7 +23,7 @@ int sum(int ar[],int n){
     for(i=0;i<n;i++){
         total+=ar[i];
     }
-    //printf("The size of ar is %zd bytes.\n",sizeof(ar));
+    printf("The size of ar is %zd bytes.\n",sizeof(ar[0]));
 
     return total;
 }
